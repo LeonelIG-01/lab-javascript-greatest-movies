@@ -31,7 +31,7 @@ function ratesAverage(moviesArr) {
         }
         return sumRate + rate;
     }, 0) / moviesArr.length;
-    return Math.round(avgRate * 100)/100; // can't use toFixed here, because (1/3).toFixed(2) will return a string
+    return Math.round(avgRate * 100)/100; 
 }
 // Iteration 4: Drama movies - Get the average of Drama Movies
 function dramaMoviesRate(moviesArr) {
